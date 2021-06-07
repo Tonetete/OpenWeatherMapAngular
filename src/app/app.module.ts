@@ -1,18 +1,33 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
+import { HttpClientModule } from '@angular/common/http';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { CurrentWeatherComponent } from './current-weather/current-weather.component';
+import { WeatherIconComponent } from './weather-icon/weather-icon.component';
+import { WeatherCardComponent } from './weather-card/weather-card.component';
+import { ForecastComponent } from './forecast/forecast.component';
+import { LoadingComponent } from './loading/loading.component';
+import { GeolocationButtonComponent } from './geolocation-button/geolocation-button.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    CurrentWeatherComponent,
+    WeatherIconComponent,
+    WeatherCardComponent,
+    ForecastComponent,
+    LoadingComponent,
+    GeolocationButtonComponent,
   ],
   imports: [
+    BrowserAnimationsModule,
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule,
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}

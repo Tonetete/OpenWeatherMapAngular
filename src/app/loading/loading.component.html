@@ -1,0 +1,8 @@
+<div class="loading" [@loading]="elements.length">
+  <h3>Loading weather app...</h3>
+  <div
+    *ngFor="let color of elements"
+    class="circle"
+    [ngStyle]="{ 'background-color': color }"
+  ></div>
+</div>
