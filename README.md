@@ -2,7 +2,7 @@
 
 A simple demo project to show the weather by Geolocation and its forecasting. Courtesy of [CodigoFacilito](https://www.codigofacilito.com).
 
-For this project to be executed properly, you need to create an api key from OpenWeatherMap and include it within **environment/environment.ts**
+For this project to be executed properly, you need to create an api key from [OpenWeatherMap](https://openweathermap.com) and include it within **environment/environment.ts**
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.0.3.
 
