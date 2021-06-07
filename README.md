@@ -1,4 +1,6 @@
-# Weather
+# OpenWeatherMap App
+
+A simple demo project to show the weather by Geolocation and its forecasting. Courtesy of [OpenWeatherMap](https://www.codigofacilito.com).
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.0.3.
 
